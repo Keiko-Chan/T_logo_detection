@@ -1,0 +1,4 @@
+model:
+  path: "models/best_exp1.pt"
+  use_plug: true 
+  confidence_threshold: 0.5
