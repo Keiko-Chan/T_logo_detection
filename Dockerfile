@@ -11,13 +11,15 @@ COPY requirements.txt .
 
 COPY . .
 
-RUN pip install numpy
-RUN pip install uvicorn
-RUN pip install fastapi
-RUN pip install pillow
-RUN pip install python-multipart
-RUN pip install opencv-python
-RUN pip install pyyaml
+#RUN pip install numpy
+#RUN pip install uvicorn
+#RUN pip install fastapi
+#RUN pip install pillow
+#RUN pip install python-multipart
+#RUN pip install opencv-python
+#RUN pip install pyyaml
+RUN pip install --no-cache-dir -r requirements.txt
+
 RUN mkdir -p models
 
 EXPOSE 8000

@@ -1,7 +1,8 @@
 # data.yaml
-path: /content/drive/MyDrive/prepared   # абсолютный путь к данным
-train: images/train                     # относительный путь к train изображениям
-val: images/val                         # относительный путь к val изображениям
+path: /content/drive/MyDrive/t_bank_logo_detection/prepared   # абсолютный путь к данным
+train: images/train                                           # относительный путь к train изображениям
+val: images/val                                               # относительный путь к val изображениям
+test: images/test 
 
 # Класс только один - логотип Т-банка
 nc: 1
